@@ -52,9 +52,9 @@ describe('Lodash: groupBy', () => {
     test('should group array items by Math.floor', () => {
         const array = [2.2, 2.4, 4.2, 3.1]
         const result = {
-            2:[2.2, 2.4],
-            3:[3.1],
-            4:[4.2]
+            2: [2.2, 2.4],
+            3: [3.1],
+            4: [4.2]
         }
         expect(_.groupBy(array, Math.floor)).toEqual(result)
     })
